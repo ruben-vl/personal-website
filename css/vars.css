@@ -26,8 +26,8 @@
 
 @media (min-width: 768px) {
 :root {
-    --title-font-size: 3rem;
-    --toggle-font-size: 1rem;
+    --title-font-size: min(3rem,5vw);
+    --toggle-font-size: min(1.2rem,2.5vw);
 }
 }
 

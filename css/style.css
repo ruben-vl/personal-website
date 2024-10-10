@@ -1,120 +1,26 @@
 body {
-font-family: var(--monospace-ff);
-background-color: var(--dark-background-color);
+    font-family: var(--monospace-ff);
+    background-color: var(--dark-background-color);
 }
 
-#header {
-color: var(--light-background-color);
-text-align: center;
-}
+    #header {
+        /* color: var(--light-background-color); */
+        /* text-align: center; */
+    }
 
-#title {
-  /* margin-right: auto; */
-  /* min-width: 170px; */
-  font-size: var(--title-font-size);
-  font-weight: 900;
-}
+        #title {
+            color: var(--light-background-color);
+            font-size: var(--title-font-size);
+            font-weight: var(--title-font-weight);
+        }
+    
+    #content-boxes {
 
-h1 {
-  font-size: var(--title-font-size);
-}
+    }
 
-/* Contents */
-
-#content-boxes {
-  /* border: var(--red-border); */
-  width: var(--max-proportion);
-  max-width: var(--max-width);
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: stretch;
-}
-
-.content-box {
-  flex: auto;
-  margin: 5px;
-  
-  border-radius: .5rem;
-  border: 2px solid var(--light-grey);
-  background-color: var(--medium-background-color);
-  padding: 5px;
-}
-
-li a {
-  color: var(--light-grey);
-  text-decoration: none;
-}
-
-a {
-  color: var(--dark-grey);
-}
-
-a:link, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  /* text-shadow: 0 0 1px var(--light-grey); */
-  text-decoration-line: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 5px;
-}
-
-
-
-#contact {
-  display: flex;
-  align-items: center;
-}
-
-#cv {
-  display: flex;
-  align-items: center;
-}
-
-h2 {
-  margin-right: 20px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  /* border: 1px solid red; */
-  display: inline;
-  margin-right: 10px;
-  margin-left: 15px;
-  min-width: 100px;
-}
-
-section {
-  padding: 20px;
-  /* margin: 10px; */
-}
-
-/* .project-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  margin: 10px;
-  padding: 10px;
-  width: 30%;
-} */
-
-footer {
-  background-color: #333;
-  color: var(--light-grey);
-  text-align: center;
-  padding: 10px;
-}
+        .content-box {
+            color: var(--light-background-color);
+            border: .2rem solid var(--medium-background-color);
+            border-radius: .5rem;
+            background-color: var(--dark-background-color);
+        }

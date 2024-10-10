@@ -1,5 +1,5 @@
 body {
-    border: var(--red-border);
+    /* border: var(--red-border); */
 
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@ body {
     #header {
         /* border: var(--blue-border); */
         
-        flex: 1 0 100%;
+        flex: 0 0 100%;
 
         width: var(--max-proportion);
         max-width: var(--max-width);
@@ -22,7 +22,7 @@ body {
         align-items: stretch;
 
         gap: var(--large-gap);
-        padding: var(--small-padding);
+        padding: var(--normal-padding);
     }
 
         #title-div {
@@ -36,6 +36,8 @@ body {
 
             justify-content: flex-start;
             align-items: center;
+
+            padding-left: var(--small-padding);
         }
 
             #logo {
@@ -51,7 +53,7 @@ body {
             }
 
         #toggle-div {
-            border: var(--red-border);
+            /* border: var(--red-border); */
             
             flex: 1 1 auto;
             
@@ -61,15 +63,42 @@ body {
 
             justify-content: flex-end;
             align-items: stretch;
-            align-content: flex-start;
+            align-content: center;
 
             gap: var(--small-gap);
         }
 
             .toggle {
-                border: var(--blue-border);
+                /* border: var(--blue-border); */
 
-                flex: 1 1 auto;
+                flex: 0 1 auto;
                 
                 padding: var(--small-padding);
             }
+    
+    #content-boxes {
+        /* border: var(--blue-border); */
+
+        flex: 0 0 100%;
+
+        width: var(--max-proportion);
+        max-width: var(--max-width);
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: flex-start;
+
+        gap: var(--normal-gap);
+    }
+
+        .content-box {
+            /* border: var(--red-border); */
+
+            flex: 1 1 auto;
+            
+            padding: var(--normal-padding);
+        }

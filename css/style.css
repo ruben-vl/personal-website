@@ -1,24 +1,16 @@
-
-
 /* Style */
-
-
-
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: var(--dark-grey);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: var(--monospace-ff);
+    background-color: var(--dark-background-color);
 }
 
 /* Header */
 
 #header {
-  border: 1px solid red;
-  width: 95%;
+  /* border: var(--red-border); */
+  width: var(--max-proportion);
   max-width: var(--max-width);
-  background-color: var(--dark-grey);
+  /* background-color: var(--light-grey); */
   color: var(--light-grey);
   padding: 10px;
   text-align: center;
@@ -38,17 +30,29 @@ h1 {
   font-size: var(--title-font-size);
 }
 
+/* Contents */
 
+#content-boxes {
+  /* border: var(--red-border); */
+  width: var(--max-proportion);
+  max-width: var(--max-width);
 
-#contents {
-  background-color: var(--light-grey);
-  /* border: 1px solid red; */
-  width: 95%;
-  max-width: 1000px;
-  /* flex-basis: 1000px;
-  flex-shrink: 1;
-  flex-grow: 0;
-  width: 1000px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+
+.content-box {
+  flex: auto;
+  margin: 5px;
+  
+  border-radius: .5rem;
+  border: 2px solid var(--light-grey);
+  background-color: var(--medium-background-color);
+  padding: 5px;
 }
 
 li a {

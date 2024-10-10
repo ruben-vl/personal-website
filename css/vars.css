@@ -1,9 +1,15 @@
 /* Variables */
 
 :root {
-    --dark-grey: #333333;
+    --monospace-ff: 'Courier New', Courier, monospace;
+    --dark-background-color: #333333;
+    --medium-background-color: #555555;
     --light-grey: #e2e2e2;
     --max-width: 1000px;
+    --max-proportion: 95%;
+
+    --red-border: 1px solid red;
+    --blue-border: 1px solid blue;
   }
   
   @media (min-width: 768px) {

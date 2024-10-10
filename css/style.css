@@ -54,10 +54,16 @@ body {
     }
 
         .content-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
             color: var(--light-background-color);
             border: .2rem solid var(--medium-background-color);
             border-radius: .5rem;
             background-color: var(--dark-background-color);
+            min-height: 10vh;
         }
 
         .content-box.highlighted {

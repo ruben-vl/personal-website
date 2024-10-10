@@ -10,4 +10,5 @@ function toggleClick(target) {
 
 function toggleTogglesVisibility() {
     document.body.classList.toggle("hide-toggle");
+    // todo: unhighlight all content boxes
 }

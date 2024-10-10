@@ -19,7 +19,7 @@ body {
         flex-wrap: nowrap;
 
         justify-content: flex-start;
-        align-items: stretch;
+        align-items: center;
 
         gap: var(--large-gap);
         padding: var(--normal-padding);
@@ -51,6 +51,12 @@ body {
 
                 flex: 0 1 auto;
             }
+        
+        #search-icon {
+            /* border: var(--red-border); */
+
+            flex: 0 0 auto;
+        }
 
         #toggle-div {
             /* border: var(--red-border); */
@@ -63,7 +69,7 @@ body {
 
             justify-content: flex-end;
             align-items: stretch;
-            align-content: center;
+            align-content: stretch;
 
             gap: var(--small-gap);
         }
@@ -71,9 +77,9 @@ body {
             .toggle {
                 /* border: var(--blue-border); */
 
-                flex: 0 1 auto;
+                flex: 1 1 auto;
                 
-                padding: var(--small-padding);
+                padding: var(--small-padding) var(--normal-padding);
             }
     
     #content-boxes {

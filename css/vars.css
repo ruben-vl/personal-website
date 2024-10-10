@@ -1,6 +1,7 @@
 /* Variables */
 
 :root {
+    --current-font-ff: var(--monospace-ff);
     --monospace-ff: 'Courier New', Courier, monospace;
     --dark-background-color: #333333;
     --medium-background-color: #555555;
@@ -25,18 +26,21 @@
 
 @media (min-width: 768px) {
 :root {
-    --title-font-size: 2rem;
+    --title-font-size: 3rem;
+    --toggle-font-size: 1rem;
 }
 }
 
 @media (max-width: 768px) {
 :root {
-    --title-font-size: 1.5rem;
+    --title-font-size: 5vw;
+    --toggle-font-size: 2.5vw;
 }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 :root {
-    --title-font-size: 1rem;
+    --title-font-size: 5vw;
+    --toggle-font-size: 2.5vw;
 }
-}
+} */

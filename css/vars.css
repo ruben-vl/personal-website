@@ -4,28 +4,37 @@
     --monospace-ff: 'Courier New', Courier, monospace;
     --dark-background-color: #333333;
     --medium-background-color: #555555;
-    --light-grey: #e2e2e2;
+    --light-background-color: #e2e2e2;
+
     --max-width: 1000px;
     --max-proportion: 95%;
 
+    --small-padding: 5px;
+    --normal-padding: 10px;
+    --large-padding: 20px;
+
+    --small-gap: 5px;
+    --normal-gap: 10px;
+    --large-gap: 20px;
+
     --red-border: 1px solid red;
     --blue-border: 1px solid blue;
-  }
-  
-  @media (min-width: 768px) {
-    :root {
-      --title-font-size: 2rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    :root {
-      --title-font-size: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    :root {
-      --title-font-size: 1rem;
-    }
-  }
+}
+
+@media (min-width: 768px) {
+:root {
+    --title-font-size: 2rem;
+}
+}
+
+@media (max-width: 768px) {
+:root {
+    --title-font-size: 1.5rem;
+}
+}
+
+@media (max-width: 480px) {
+:root {
+    --title-font-size: 1rem;
+}
+}

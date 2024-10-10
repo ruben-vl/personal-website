@@ -4,11 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ruben-vl</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/vars.css">
-  <link rel="stylesheet" href="css/pos.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js" defer></script>
   <!-- Favicon Generator (favicon-generator.org)-->
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -28,17 +23,29 @@
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- END Favicon Generator -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/vars.css">
+  <link rel="stylesheet" href="css/pos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
   <div id="header">
-    <h1 id="title">ruben-vl</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div id="title-div">
+      <div id="logo"></div>
+      <div id="title">ruben-vl</div>
+    </div>
+    <div id="toggle-div">
+      <div class="toggle">About</div>
+      <div class="toggle">Projects</div>
+      <div class="toggle">Contact</div>
+      <!-- <div class="toggle">About</div>
+      <div class="toggle">Projects</div>
+      <div class="toggle">Contact</div>
+      <div class="toggle">About</div>
+      <div class="toggle">Projects</div>
+      <div class="toggle">Contact</div> -->
+    </div>
   </div>
   <div id="content-boxes">
     <div class="content-box">
@@ -59,46 +66,5 @@
 
   </div>
 
-
-
-
-  <!-- <div id="contents"> -->
-    <!-- <section id="about">
-      <h2>About Me</h2>
-      <p>Michiel has a passion for embedded systems...</p>
-    </section> -->
-  
-    <!-- <section id="projects">
-      <h2>Projects</h2>
-      <div class="project-list">
-        Add your project details here -->
-        <!-- <div class="project">
-          <h3>Project 1</h3>
-          <p>Description of the project...</p>
-          <a href="https://github.com/username/project1" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <p>Description of the project...</p>
-          <a href="https://github.com/username/project2" target="_blank">View on GitHub</a>
-        </div>
-      </div>
-    </section> -->
-  
-    <!-- <section id="contact">
-      <h2>Contact</h2>
-      <p><a href="mailto:email@rubenvanlaer.com">email@rubenvanlaer.com</a></p>
-    </section>
-    <section id="cv">
-      <h2>Curriculum Vitae</h2>
-      <button>
-        <a target="_blank" rel="noreferrer noopener" href="assets/CV241008142800.pdf">PDF</a>
-      </button>
-    </section>
-
-  </div> -->
-  <!-- <footer>
-    <p>&copy; 2024 Ruben Van Laer</p>
-  </footer> -->
 </body>
 </html>

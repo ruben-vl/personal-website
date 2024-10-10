@@ -1,29 +1,18 @@
-/* Style */
 body {
-    font-family: var(--monospace-ff);
-    background-color: var(--dark-background-color);
+font-family: var(--monospace-ff);
+background-color: var(--dark-background-color);
 }
 
-/* Header */
-
 #header {
-  /* border: var(--red-border); */
-  width: var(--max-proportion);
-  max-width: var(--max-width);
-  /* background-color: var(--light-grey); */
-  color: var(--light-grey);
-  padding: 10px;
-  text-align: center;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
+color: var(--light-background-color);
+text-align: center;
 }
 
 #title {
-  margin-right: auto;
+  /* margin-right: auto; */
   /* min-width: 170px; */
+  font-size: var(--title-font-size);
+  font-weight: 900;
 }
 
 h1 {

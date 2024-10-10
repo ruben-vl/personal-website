@@ -1,0 +1,25 @@
+/* Variables */
+
+:root {
+    --dark-grey: #333333;
+    --light-grey: #e2e2e2;
+    --max-width: 1000px;
+  }
+  
+  @media (min-width: 768px) {
+    :root {
+      --title-font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      --title-font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    :root {
+      --title-font-size: 1rem;
+    }
+  }

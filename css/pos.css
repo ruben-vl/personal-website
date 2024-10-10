@@ -61,7 +61,7 @@ body {
         #toggle-div {
             /* border: var(--red-border); */
             
-            flex: 1 1 auto;
+            flex: 0 1 auto;
             
             display: flex;
             flex-direction: row;
@@ -109,3 +109,6 @@ body {
             padding: var(--normal-padding);
         }
 
+body.hide-toggle .toggle {
+    display: none;
+}

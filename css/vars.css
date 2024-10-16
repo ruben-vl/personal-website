@@ -43,6 +43,7 @@
 :root {
     --title-font-size: min(3rem,5vw);
     --toggle-font-size: min(1.2rem,2.5vw);
+    --section-title-font-size: min(1.2rem,2.5vw);
 }
 }
 
@@ -50,6 +51,7 @@
 :root {
     --title-font-size: 5vw;
     --toggle-font-size: 2.5vw;
+    --section-title-font-size: 2.5vw;
 }
 }
 

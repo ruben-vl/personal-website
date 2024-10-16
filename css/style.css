@@ -6,6 +6,12 @@ body {
     #header {
         /* Hack to be non-empty */
         font-family: var(--current-font-ff);
+
+        position: sticky;
+        top: 0px;
+        margin-top: 0px;
+
+        background-color: var(--background-color);
     }
 
         #title-div {
@@ -59,6 +65,38 @@ body {
                 background-color: var(--contrasting-color);
                 color: var(--background-color);
             }
+
+    main {
+        /* Hack to be non-empty */
+        font-family: var(--current-font-ff);
+    }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            font-size: var(--section-title-font-size);
+            color: var(--contrasting-color);
+            /* position: relative; */
+            text-align: center;
+        }
+
+        .section-title::before, 
+        .section-title::after {
+            content: '';
+            height: var(--section-title-font-size);
+            background-color: var(--contrasting-color);
+            /* display: block; */
+        }
+
+        .section-title::before {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .section-title::after {
+            flex-grow: 15;
+            margin-left: 10px;
+        }
     
     #content-boxes {
         /* Hack to be non-empty */

@@ -3,10 +3,7 @@
 :root {
     --current-font-ff: var(--monospace-ff);
     --monospace-ff: 'Courier New', Courier, monospace;
-    --dark-background-color: #333333;
-    --medium-background-color: #555555;
-    --light-background-color: #e2e2e2;
-
+    
     --max-width: 1000px;
     --max-proportion: 95%;
 
@@ -22,6 +19,24 @@
     --blue-border: 1px solid blue;
 
     --title-font-weight: 900;
+}
+
+:root {
+    --dark-background-color: #333333;
+    --medium-background-color: #555555;
+    --light-background-color: #e2e2e2;
+}
+
+.dark-mode {
+    --background-color: var(--dark-background-color);
+    --contrasting-color: var(--light-background-color);
+    --in-between-color: var(--medium-background-color);
+}
+
+.light-mode {
+    --background-color: var(--light-background-color);
+    --contrasting-color: var(--dark-background-color);
+    --in-between-color: var(--medium-background-color);
 }
 
 @media (min-width: 768px) {

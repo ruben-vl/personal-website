@@ -1,8 +1,8 @@
 toggles = document.querySelectorAll(".toggle");
 toggles.forEach(toggle => toggle.addEventListener("click", () => toggleClick(toggle)))
 
-search_icon = document.querySelector("#search-icon");
-search_icon.addEventListener("click", () => toggleTogglesVisibility());
+// search_icon = document.querySelector("#search-icon");
+// search_icon.addEventListener("click", () => toggleTogglesVisibility());
 
 content_boxes = document.querySelectorAll(".content-box");
 
@@ -45,3 +45,19 @@ function toggleTogglesVisibility() {
     removeContentHighlighting();
     removeToggleHighlighting();
 }
+
+
+// THEME TOGGLE
+
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+themeToggle.addEventListener('click', () => {
+    if (body.classList.contains('dark-mode')) {
+        body.classList.remove('dark-mode');
+        body.classList.add('light-mode');
+    } else {
+        body.classList.remove('light-mode');
+        body.classList.add('dark-mode');
+    }
+});
